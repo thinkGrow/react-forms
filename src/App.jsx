@@ -1,11 +1,15 @@
 import "./App.css";
-import SimpleForms from "./components/SimpleForms";
+import ControlledField from "./components/ControlledField/ControlledField";
+import FormAction from "./components/FormAction/FormAction";
+import SimpleForms from "./components/SimpleForms/SimpleForms";
 
 function App() {
   return (
     <>
       <h1>Explore React Forms</h1>
-      <SimpleForms></SimpleForms>
+      {/* <SimpleForms></SimpleForms> */}
+      {/* <FormAction></FormAction> */}
+      <ControlledField></ControlledField>
     </>
   );
 }
