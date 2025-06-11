@@ -1,5 +1,5 @@
 import React from "react";
-import useInputField from "../../hooks/useInputField";
+import useInputField from "../hook/useInputField.jsx";
 
 const HookForm = () => {
   const [name, nameOnChange] = useInputField("");
